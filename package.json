@@ -1,0 +1,32 @@
+{
+  "name": "middleman-webpack",
+  "version": "1.0.0",
+  "description": "An example of adding webpack to Middleman",
+  "main": "index.js",
+  "repository": "https://github.com/grassdog/middleman-webpack.git",
+  "author": "Ray Grasso <ray.grasso@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "clean-webpack-plugin": "^0.1.15",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "node-sass": "^4.5.0",
+    "postcss": "^5.2.12",
+    "postcss-loader": "^1.2.2",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "d3": "^4.5.0",
+    "sanitize.css": "^4.1.0"
+  }
+}

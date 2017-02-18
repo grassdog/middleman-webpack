@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Middleman + Webpack</title>
+
+    <%= stylesheet_link_tag "second.bundle" %>
+  </head>
+  <body>
+    <h1>Middleman + Webpack</h1>
+
+    <p>Another page with a different JS entrypoint</p>
+    <%= javascript_include_tag "second.bundle" %>
+  </body>
+</html>
