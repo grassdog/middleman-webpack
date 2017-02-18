@@ -1,6 +1,6 @@
 # Adding Webpack to Middleman
 
-Adding webpack via Middleman's external pipeline.
+This is an example repo for adding webpack to Middleman via the external pipeline.
 
 Javascript and CSS live under [assets](assets).
 
