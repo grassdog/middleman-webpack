@@ -2,7 +2,9 @@
 
 This is an example repo for adding webpack to Middleman via the external pipeline.
 
-Javascript and CSS live under [assets](assets).
+Javascript and CSS live under [assets](assets). The javascript files form the entrypoint. Include whatever CSS you need from there and it will be extracted into the built site with the same name as the entypoint file you used.
+
+Images are not managed via Webpack.
 
 ## Get this going
 
